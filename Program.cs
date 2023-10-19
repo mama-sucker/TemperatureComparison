@@ -2,19 +2,17 @@
 // By Addison Roy
 
 using System;
-
-class TemperatureAnalyzer
+class TemperaturesComparison
 {
     static void Main()
     {
         double[] temperatures = new double[5];
-        double previousTemperature = double.MaxValue; // Changed to Maximum Value
 
         for (int i = 0; i < 5; i++)
         {
             while (true)
             {
-                Console.Write("Only enter the number!\n");
+                Console.Write("Only enter a number!\n");
                 Console.Write($"Enter temperature (Fahrenheit) {i + 1} (-30 to 130): ");
                 string input = Console.ReadLine();
 
@@ -26,11 +24,6 @@ class TemperatureAnalyzer
                 {
                     Console.WriteLine("Invalid temperature. Please enter a temperature between -30 and 130.");
                 }
-            }
-
-            if (temperatures[i] < previousTemperature) 
-            {
-                previousTemperature = temperatures[i];
             }
         }
 
@@ -44,17 +37,31 @@ class TemperatureAnalyzer
 
         Console.WriteLine($"\n\nAverage Temperature: {averageTemperature}°F");
 
-        if (previousTemperature != double.MaxValue) 
+        bool isIncreasing = true;
+        bool isDecreasing = true;
+        for (int i = 1; i < 5; i++)
         {
-            Console.WriteLine("Getting Cooler");
+            if (temperatures[i] <= temperatures[i - 1])
+            {
+                isIncreasing = false;
+            }
+            if (temperatures[i] >= temperatures[i - 1])
+            {
+                isDecreasing = false;
+            }
         }
-        else if (averageTemperature != temperatures[0]) 
+
+        if (isIncreasing)
         {
-            Console.WriteLine("Getting Warmer");
+            Console.WriteLine("Getting warmer");
+        }
+        else if (isDecreasing)
+        {
+            Console.WriteLine("Getting cooler");
         }
         else
         {
-            Console.WriteLine("No change in temperature");
+            Console.WriteLine("Mixed Bag!");
         }
     }
 
@@ -71,4 +78,3 @@ class TemperatureAnalyzer
     }
 }
 
-}
