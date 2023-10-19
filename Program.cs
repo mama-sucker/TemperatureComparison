@@ -2,14 +2,13 @@
 // By Addison Roy
 
 using System;
+
 class TemperatureAnalyzer
 {
     static void Main()
     {
         double[] temperatures = new double[5];
-        double previousTemperature = double.MinValue;
-        bool isIncreasing = false;
-        bool isDecreasing = false;
+        double previousTemperature = double.MaxValue; // Changed to Maximum Value
 
         for (int i = 0; i < 5; i++)
         {
@@ -29,16 +28,10 @@ class TemperatureAnalyzer
                 }
             }
 
-            if (temperatures[i] > previousTemperature)
+            if (temperatures[i] < previousTemperature) 
             {
-                isIncreasing = true;
+                previousTemperature = temperatures[i];
             }
-            else if (temperatures[i] < previousTemperature)
-            {
-                isDecreasing = true;
-            }
-
-            previousTemperature = temperatures[i];
         }
 
         Console.WriteLine("\nEntered Temperatures:");
@@ -51,17 +44,13 @@ class TemperatureAnalyzer
 
         Console.WriteLine($"\n\nAverage Temperature: {averageTemperature}°F");
 
-        if (isIncreasing && isDecreasing)
-        {
-            Console.WriteLine("It's a mixed bag!");
-        }
-        else if (isIncreasing)
-        {
-            Console.WriteLine("Getting Warmer");
-        }
-        else if (isDecreasing)
+        if (previousTemperature != double.MaxValue) 
         {
             Console.WriteLine("Getting Cooler");
+        }
+        else if (averageTemperature != temperatures[0]) 
+        {
+            Console.WriteLine("Getting Warmer");
         }
         else
         {
@@ -80,4 +69,6 @@ class TemperatureAnalyzer
 
         return sum / temperatures.Length;
     }
+}
+
 }
