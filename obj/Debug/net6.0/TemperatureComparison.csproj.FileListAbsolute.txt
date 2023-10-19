@@ -1,0 +1,14 @@
+C:\Users\addis\OneDrive - Hillsborough Community College\Semester 3 (year 2)\COP-2360 (Programing in C#)\Module 5 - Excercise 5.2\TemperatureComparison\bin\Debug\net6.0\TemperatureComparison.exe
+C:\Users\addis\OneDrive - Hillsborough Community College\Semester 3 (year 2)\COP-2360 (Programing in C#)\Module 5 - Excercise 5.2\TemperatureComparison\bin\Debug\net6.0\TemperatureComparison.deps.json
+C:\Users\addis\OneDrive - Hillsborough Community College\Semester 3 (year 2)\COP-2360 (Programing in C#)\Module 5 - Excercise 5.2\TemperatureComparison\bin\Debug\net6.0\TemperatureComparison.runtimeconfig.json
+C:\Users\addis\OneDrive - Hillsborough Community College\Semester 3 (year 2)\COP-2360 (Programing in C#)\Module 5 - Excercise 5.2\TemperatureComparison\bin\Debug\net6.0\TemperatureComparison.dll
+C:\Users\addis\OneDrive - Hillsborough Community College\Semester 3 (year 2)\COP-2360 (Programing in C#)\Module 5 - Excercise 5.2\TemperatureComparison\bin\Debug\net6.0\TemperatureComparison.pdb
+C:\Users\addis\OneDrive - Hillsborough Community College\Semester 3 (year 2)\COP-2360 (Programing in C#)\Module 5 - Excercise 5.2\TemperatureComparison\obj\Debug\net6.0\TemperatureComparison.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\addis\OneDrive - Hillsborough Community College\Semester 3 (year 2)\COP-2360 (Programing in C#)\Module 5 - Excercise 5.2\TemperatureComparison\obj\Debug\net6.0\TemperatureComparison.AssemblyInfoInputs.cache
+C:\Users\addis\OneDrive - Hillsborough Community College\Semester 3 (year 2)\COP-2360 (Programing in C#)\Module 5 - Excercise 5.2\TemperatureComparison\obj\Debug\net6.0\TemperatureComparison.AssemblyInfo.cs
+C:\Users\addis\OneDrive - Hillsborough Community College\Semester 3 (year 2)\COP-2360 (Programing in C#)\Module 5 - Excercise 5.2\TemperatureComparison\obj\Debug\net6.0\TemperatureComparison.csproj.CoreCompileInputs.cache
+C:\Users\addis\OneDrive - Hillsborough Community College\Semester 3 (year 2)\COP-2360 (Programing in C#)\Module 5 - Excercise 5.2\TemperatureComparison\obj\Debug\net6.0\TemperatureComparison.dll
+C:\Users\addis\OneDrive - Hillsborough Community College\Semester 3 (year 2)\COP-2360 (Programing in C#)\Module 5 - Excercise 5.2\TemperatureComparison\obj\Debug\net6.0\refint\TemperatureComparison.dll
+C:\Users\addis\OneDrive - Hillsborough Community College\Semester 3 (year 2)\COP-2360 (Programing in C#)\Module 5 - Excercise 5.2\TemperatureComparison\obj\Debug\net6.0\TemperatureComparison.pdb
+C:\Users\addis\OneDrive - Hillsborough Community College\Semester 3 (year 2)\COP-2360 (Programing in C#)\Module 5 - Excercise 5.2\TemperatureComparison\obj\Debug\net6.0\TemperatureComparison.genruntimeconfig.cache
+C:\Users\addis\OneDrive - Hillsborough Community College\Semester 3 (year 2)\COP-2360 (Programing in C#)\Module 5 - Excercise 5.2\TemperatureComparison\obj\Debug\net6.0\ref\TemperatureComparison.dll
